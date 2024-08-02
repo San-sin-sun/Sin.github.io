@@ -98,9 +98,15 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+# MathJax configuration
+mathjax:
+  enable: true
+  per_page: false
+  per_post: true
+  
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:San-sin-sun/Sin.github.io.git
+  repository: git@github.com:San-sin-sun/San-sin-sun.github.io.git
   branch: main
